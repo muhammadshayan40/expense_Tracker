@@ -104,7 +104,7 @@ def main_Menu():
        print("4) Monthly Summary")
        print("5) EXIT")
     
-       select=input("Please enter ")
+       select=input("Select an option:")
        if(select=="1"):
            add_Expenses()    
                    
@@ -123,15 +123,14 @@ def main_Menu():
        else:
            print("Invalid choice. Try again.")    
                  
-if __name__="__main__"
-   main_Menu()
+if __name__ == "__main__":
+    main_Menu()    
  #---------------------------END--------------------------------------                       
             
-                        
-            
     
 
     
 
     
+
 
